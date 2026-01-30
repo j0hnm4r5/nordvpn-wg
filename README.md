@@ -22,7 +22,7 @@ Based on [this gist by bluewalk](https://gist.github.com/bluewalk/7b3db071c488c8
 
 ```bash
 # Download
-curl -O https://raw.githubusercontent.com/YOUR_USERNAME/nordvpn-wg/main/nordvpn-wg
+curl -O https://raw.githubusercontent.com/j0hnm4r5/nordvpn-wg/main/nordvpn-wg
 chmod +x nordvpn-wg
 
 # Install system-wide (optional)
@@ -34,7 +34,7 @@ sudo mv nordvpn-wg /usr/local/bin/
 For a prettier TUI experience using [charmbracelet/gum](https://github.com/charmbracelet/gum):
 
 ```bash
-curl -O https://raw.githubusercontent.com/YOUR_USERNAME/nordvpn-wg/main/nordvpn-wg-gum
+curl -O https://raw.githubusercontent.com/j0hnm4r5/nordvpn-wg/main/nordvpn-wg-gum
 chmod +x nordvpn-wg-gum
 sudo mv nordvpn-wg-gum /usr/local/bin/
 ```
