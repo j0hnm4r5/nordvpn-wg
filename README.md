@@ -85,14 +85,14 @@ nordvpn-wg -l
 
 ### Options
 
-| Flag                   | TUI | Plain | Description                               |
-| ---------------------- | --- | ----- | ----------------------------------------- |
-| `-c, --country`        | ✅  | ✅    | Filter by country code or name            |
-| `-s, --server`         | ✅  | ✅    | Use specific server (e.g., `us9574`)      |
-| `-o, --output`         | ✅  | ✅    | Output file path (skips save prompt)      |
-| `-i, --interactive`    | —   | ✅    | Interactive country picker (requires fzf) |
-| `-l, --list-countries` | —   | ✅    | List all available countries              |
-| `-h, --help`           | ✅  | ✅    | Show help                                 |
+| Flag                   | TUI        | Plain | Description                               |
+| ---------------------- | ---------- | ----- | ----------------------------------------- |
+| `-c, --country`        | ✅         | ✅    | Filter by country code or name            |
+| `-s, --server`         | ✅         | ✅    | Use specific server (e.g., `us9574`)      |
+| `-o, --output`         | ✅         | ✅    | Output file path (skips save prompt)      |
+| `-i, --interactive`    | (built-in) | ✅    | Interactive country picker (requires fzf) |
+| `-l, --list-countries` | (built-in) | ✅    | List all available countries              |
+| `-h, --help`           | ✅         | ✅    | Show help                                 |
 
 ### Scripting (Fully Non-Interactive)
 
